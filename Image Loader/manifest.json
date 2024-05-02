@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Image Loader for Minecraft Bedrock",
+		"description": "Script",
+		"min_engine_version": [1,20,73],
+		"uuid": "9f9e064b-f97c-4c2a-af2e-1327fdeaf33e",
+		"version": [8, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Data Module",
+			"type": "data",
+			"uuid": "6c72d92a-24cd-419f-8f19-696184bb7c09",
+			"version": [8, 0, 0]
+		},
+		{
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "f34bb489-3ac7-4b05-b8fe-69b255d6d348",
+			"entry": "scripts/main.js",
+			"version": [8, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-net",
+			"version": "1.0.0-beta"
+		}
+	],
+	"metadata": {
+	  "authors": ["xaulin_matador"],
+	  "license": "GNU",
+	  "url": "https://discord.gg/2Dge6m3EKM"
+	}
+  }
